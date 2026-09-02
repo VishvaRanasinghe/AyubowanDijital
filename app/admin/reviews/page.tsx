@@ -1,4 +1,5 @@
 import { createClient } from "@/lib/supabase/server";
+export const dynamic = "force-dynamic";
 import type { Review } from "@/lib/types";
 import ReviewForm from "./ReviewForm";
 import ReviewListButtons from "./ReviewListButtons";

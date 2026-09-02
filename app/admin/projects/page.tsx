@@ -1,4 +1,5 @@
 import { createClient } from "@/lib/supabase/server";
+export const dynamic = "force-dynamic";
 import type { Project } from "@/lib/types";
 import ProjectForm from "./ProjectForm";
 import DeleteProjectButton from "./DeleteProjectButton";
